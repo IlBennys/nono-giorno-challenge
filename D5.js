@@ -58,7 +58,7 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ]
-for (let i = 0; i < cars; i++) {
+for (let i = 0; i < cars.length; i++) {
   let macchine = cars[i]
   macchine.licenseplate = "AY12345"
   console.log(macchine)
@@ -73,7 +73,7 @@ const colour = { cod: "#455", paint: "green", carbody: "metallized" }
 cars.push(colour)
 console.log(cars)
 
-for (let i = 0; i < cars; i++) {
+for (let i = 0; i < cars.length; i++) {
   let senzatrim = cars[i].trims
   delete senzatrim
   console.log(cars)
@@ -81,16 +81,25 @@ for (let i = 0; i < cars; i++) {
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+console.log("-----ESERCIZIO 7-----")
+
 const justTrims = []
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims[0])
+}
+console.log(justTrims)
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+console.log("-----ESERCIZIO 8-----")
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
+console.log("-----ESERCIZIO 9-----")
+
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
@@ -100,4 +109,6 @@ const numericArray = [
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = [g, n, u, z, d]
+console.log("-----ESERCIZIO 10-----")
+
+const charactersArray = ["g", "n", "u", "z", "d"]
