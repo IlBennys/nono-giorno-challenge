@@ -11,7 +11,9 @@ REGOLE
 */
 console.log("-----ESERCIZIO 1-----")
 const pets = ["dog", "cat", "hamster", "redfish"]
-console.log(pets)
+for (let i = 0; i < pets.length; i++) {
+  console.log(pets[i])
+}
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
@@ -69,15 +71,19 @@ for (let i = 0; i < cars.length; i++) {
 */
 console.log("-----ESERCIZIO 6-----")
 
-const colour = { cod: "#455", paint: "green", carbody: "metallized" }
+const colour = {
+  cod: "#455",
+  paint: "green",
+  carbody: "metallized",
+  trims: "life",
+}
 cars.push(colour)
 console.log(cars)
 
 for (let i = 0; i < cars.length; i++) {
-  let senzatrim = cars[i].trims
-  delete senzatrim
-  console.log(cars)
+  cars[i].trims.pop()
 }
+console.log(cars)
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -94,7 +100,12 @@ console.log(justTrims)
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 console.log("-----ESERCIZIO 8-----")
-
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color.charAt(0) === "b") {
+    console.log("Fizz")
+  } else console.log("Buzz")
+}
+consolelog()
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
@@ -103,6 +114,9 @@ console.log("-----ESERCIZIO 9-----")
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+for (let i = 0; i < numericArray.length; i++) {
+
+while(i < 13){
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
