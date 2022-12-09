@@ -190,4 +190,17 @@ body {
   color: #ffffff;
   display: block;
   padding-top: 5px;
+  font-weight: 500;
+}
+.final-page {
+  background-color: #222f3f;
+  width: 1353px;
+  height: 150px;
+  display: block;
+}
+.final-img {
+  display: block;
+  padding-left: 591px;
+  width: 180px;
+  padding-top: 39px;
 }
