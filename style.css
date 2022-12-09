@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .barra-blu {
   background-color: #222f3f;
   width: 1353px;
@@ -59,6 +62,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
+  font-family: inherit;
 }
 .word-orange-bar {
   color: #e4eef3;
@@ -67,6 +71,7 @@
   font-family: inherit;
   display: block;
   padding-top: 8px;
+  font-family: inherit;
 }
 .green-bar {
   background-image: url(/assets/bg-image.png);
@@ -80,6 +85,7 @@
   background-size: cover;
   display: block;
   margin-bottom: 10px;
+  font-family: inherit;
 }
 .green-word {
   text-align: center;
@@ -88,6 +94,8 @@
   text-decoration: none;
   display: block;
   padding-top: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 .piccolo {
   font-size: 27px;
@@ -98,6 +106,7 @@
   color: black;
   font-weight: bold;
   display: block;
+  font-family: inherit;
 }
 #corpo-img {
   width: 1323px;
@@ -113,6 +122,7 @@
   font-weight: bold;
   font-size: 13px;
   margin-left: 7px;
+  font-family: inherit;
 }
 .foto1 {
   width: 299px;
@@ -121,6 +131,7 @@
   padding-left: 20px;
   margin-left: 9px;
   border-radius: 35px;
+  box-shadow: 5px 5px 10px black;
 }
 .foto2,
 .foto3,
@@ -130,4 +141,53 @@
   padding-top: 0px;
   padding-left: 20px;
   border-radius: 35px;
+  box-shadow: 5px 5px 8px black;
+}
+.reality-vr {
+  width: 1323px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.foto-vr {
+  width: 1323px;
+  margin-top: 0px;
+  border-top: solid black 1px;
+}
+.information {
+  margin-top: 0px;
+  font-weight: bold;
+  font-family: inherit;
+}
+.pop {
+  text-decoration: none;
+  color: #31727d;
+  font-weight: bold;
+  margin-left: 7px;
+  font-family: inherit;
+}
+.sung-img {
+  width: 1323px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.sunglasses {
+  width: 1323px;
+}
+.blue-bar-bot {
+  background-color: #364759;
+  width: 1353px;
+  height: 30px;
+  display: block;
+  text-align: center;
+}
+.lol {
+  color: #ffffff;
+  display: block;
+  padding-top: 5px;
 }
