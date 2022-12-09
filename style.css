@@ -6,15 +6,128 @@
 .logo {
   height: 36px;
   padding-left: 28px;
-  height: 43px;
+  height: 40px;
   padding-top: 10px;
-  width: 100px;
+  width: 80px;
 }
 .bottom-bar {
   background-color: #364759;
   width: 1353px;
   height: 30px;
+  display: inline-block;
+  text-align: left;
 }
-.word-bar {
+.word-bar1 {
   color: #e4eef3;
+  margin: 0px;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: inherit;
+  overflow: hidden;
+  text-decoration: none;
+}
+.word-bar2,
+.word-bar3,
+.word-bar4,
+.word-bar5,
+.word-bar6 {
+  color: #e4eef3;
+  margin: 0px;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-family: inherit;
+  overflow: hidden;
+  text-decoration: none;
+}
+.orange-bar {
+  background-color: #f46600;
+  color: #e4eef3;
+  width: 1323px;
+  height: 34px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.word-orange-bar {
+  color: #e4eef3;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: inherit;
+  display: block;
+  padding-top: 8px;
+}
+.green-bar {
+  background-image: url(/assets/bg-image.png);
+  text-align: center;
+  width: 1323px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  height: 128px;
+  margin-top: 15px;
+  background-size: cover;
+  display: block;
+  margin-bottom: 10px;
+}
+.green-word {
+  text-align: center;
+  color: #e4eef3;
+  font-size: 2em;
+  text-decoration: none;
+  display: block;
+  padding-top: 45px;
+}
+.piccolo {
+  font-size: 27px;
+  padding-left: 10px;
+}
+.white-word {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+#corpo-img {
+  width: 1323px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #ffffff;
+  height: 400px;
+  margin-top: 15px;
+}
+.reference-white {
+  color: #31727d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 7px;
+}
+.foto1 {
+  width: 299px;
+  height: 330px;
+  padding-top: 0px;
+  padding-left: 20px;
+  margin-left: 9px;
+  border-radius: 35px;
+}
+.foto2,
+.foto3,
+.foto4 {
+  width: 299px;
+  height: 330px;
+  padding-top: 0px;
+  padding-left: 20px;
+  border-radius: 35px;
 }
