@@ -1,0 +1,20 @@
+.barra-blu {
+  background-color: #222f3f;
+  width: 1353px;
+  height: 60px;
+}
+.logo {
+  height: 36px;
+  padding-left: 28px;
+  height: 43px;
+  padding-top: 10px;
+  width: 100px;
+}
+.bottom-bar {
+  background-color: #364759;
+  width: 1353px;
+  height: 30px;
+}
+.word-bar {
+  color: #e4eef3;
+}
